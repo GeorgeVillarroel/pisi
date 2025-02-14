@@ -37,6 +37,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    outline: 5px solid red; 
+    outline-offset: -20px; 
 }
 
 p {
@@ -56,6 +58,8 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    outline: 5px solid white; 
+    outline-offset: -20px; 
 }
 
 .abierta-caratula {
