@@ -36,7 +36,7 @@
     font-size: 2em !important;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 
 p {
@@ -71,6 +71,27 @@ p {
     transform: translateX(0%);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     z-index: 1;
+}
+
+img {
+    position: absolute;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.dino {
+    top: 0;
+}
+
+.bow {
+    bottom: 0;
+    right: 0;
+}
+
+.cal {
+    top: 0;
+    right: 0;
 }
 
 @keyframes myAnim {
